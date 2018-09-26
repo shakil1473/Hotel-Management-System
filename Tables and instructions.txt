@@ -1,0 +1,42 @@
+download rs2xml.jar for using table.DbUtils is in this jar
+add ojdbc.jar
+
+create table admin(
+	username varchar2(25),
+	password varchar2(25),
+	secretnumber number,
+	primary key(username)
+);
+create table tourist(
+	name varchar2(25),
+	username varchar2(25),
+	email varchar2(25),
+	password varchar2(30),
+	contact varchar2(15),
+	country varchar2(20),
+	question varchar2(200),
+	answer varchar2(100),
+	primary key(username)
+);
+create table price(
+	roomtype varchar2(10),
+	bedtype varchar2(10),
+	price varchar2(10)
+);
+create table rooms(
+	roomno varchar2(10),
+	roomtype varchar2(10),
+	bedtype varchar2(10),
+	available number,
+	primary key(roomno)
+);
+create table reservation(
+	checkin date,
+	checkout date,
+	username varchar2(25),
+	roomno varchar2(10),
+	cost number,
+	CONSTRAINT fk_tourist FOREIGN KEY (username) REFERENCES tourist(username),
+	CONSTRAINT fk_rooms FOREIGN KEY (roomno) REFERENCES rooms(roomno),
+	primary key(roomno)
+);
