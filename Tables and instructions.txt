@@ -1,5 +1,6 @@
 download rs2xml.jar for using table.DbUtils is in this jar
 add ojdbc.jar
+after creating admin database,insert first admin from console.
 
 create table admin(
 	username varchar2(25),
