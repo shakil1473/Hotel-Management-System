@@ -29,7 +29,7 @@ public class AdminPanel extends javax.swing.JFrame {
     PreparedStatement preparedStatement;
     
     public AdminPanel() {
-        super("New Room Informations");
+        super("Admin Panel");
         initComponents();
         connection = DatabaseConnector.connectDatabase();
     }

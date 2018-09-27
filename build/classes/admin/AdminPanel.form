@@ -68,14 +68,12 @@
                   <EmptySpace pref="90" max="32767" attributes="0"/>
                   <Group type="103" groupAlignment="1" max="-2" attributes="0">
                       <Component id="btnLogout" pref="183" max="32767" attributes="0"/>
-                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="btnUpdatePrice" alignment="0" max="32767" attributes="0"/>
-                          <Component id="btnAddRoom" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jBtnAvailable" alignment="0" pref="183" max="32767" attributes="0"/>
-                          <Component id="btnRoomInfo" alignment="0" max="32767" attributes="0"/>
-                          <Component id="btnDelete" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jNewAdmin" alignment="0" max="32767" attributes="0"/>
-                      </Group>
+                      <Component id="btnUpdatePrice" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnAddRoom" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jBtnAvailable" alignment="0" pref="183" max="32767" attributes="0"/>
+                      <Component id="btnRoomInfo" alignment="0" max="32767" attributes="0"/>
+                      <Component id="btnDelete" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jNewAdmin" alignment="0" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace pref="100" max="32767" attributes="0"/>
               </Group>
