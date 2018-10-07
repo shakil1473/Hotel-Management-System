@@ -250,7 +250,7 @@ public class Signup extends javax.swing.JFrame {
             preparedStatement.setString(5,jContact.getText());
             preparedStatement.setString(6,jCountry.getText());
             preparedStatement.setString(7,(String)jQuestion.getSelectedItem());
-            preparedStatement.setString(8,"10");
+            preparedStatement.setString(8,"jAnswer.getText()");
             
             preparedStatement.execute();
             JOptionPane.showMessageDialog(null, "Account Created");
